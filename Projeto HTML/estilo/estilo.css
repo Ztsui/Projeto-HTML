@@ -1,0 +1,97 @@
+* {
+  background-color: #C1C1C1;
+}
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background-color: #A0DD8B;
+}
+
+.sidebar header {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  line-height: 60px;
+  text-align: center;
+  background-color: #A0DD8B;
+  margin-top: 5px;
+}
+
+
+.sidebar ul {
+  background-color: #A0DD8B;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  background-color: #A0DD8B;
+  padding: 15px;
+}
+
+.sidebar ul li a {
+  display: block;
+  line-height: 65px;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: #A0DD8B;
+}
+
+.sidebar ul li a:hover {
+  padding-left: 30px;
+  transition: 0.6s;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: #365233;
+  z-index: -1;
+}
+
+.main {
+  margin-left: 260px;
+  margin-top: 10px;
+  display: grid;
+}
+
+.main img {
+  float: left;
+  width:450px;
+  height:300px;
+}
+
+.main h1 {
+  font: 40px Roboto, sans-serif;
+}
+
+.main h2 {
+  font: 25px Roboto, sans-serif;
+}
+
+.desmatamento {
+  font: 16px Arial, sans-serif;
+}
+
+.texto p{
+  font: 16px Roboto, sans-serif;
+}
+
+.texto2 h1 {
+  text-align:center;
+}
+
+.texto2 p{
+  font: 16px Roboto, sans-serif;
+  text-align: center;
+}
+
+.texto img {
+  margin-right: 10px;
+}
